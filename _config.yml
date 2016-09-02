@@ -1,49 +1,50 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "rudi.prihandoko.id" # the base hostname & protocol for your site
+excerpt_separator: <!--more-->
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
+  title: Midnight Notes
+  avatar: ava500.png # Taken from Freepik http://www.freepik.com/free-vector/avatars-in-cartoon-style_766799.htm
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Notes to Myself" # used by search engines
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>You can never edit a piece of blank paper.</p>
+     <p>--Anonym</p>
 
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  header_text_feature_image:
+  header_text_feature_image: https://source.unsplash.com/category/nature/1600x1200
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Powered by <a href="http://github.com">Github</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
-  rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: true
+  email_address: rudi@prihandoko.id # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
-  facebook:
-  flickr:
-  github: "rohanchandra/type-theme"
-  google_plus:
-  instagram:
+  facebook: ruuds
+  flickr: rudi-prihandoko
+  github: rud72k
+  google_plus: +RudiPrihandoko
+  instagram: prihandokorudi
   linkedin:  # Full URL
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
-  steam:
+  steam: rudipekok
   tumblr:
-  twitter: "twitter"
+  twitter: "prihandokorudi"
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: UA-75027306-1 # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname: midnightnotestomyself
   katex: true # Enable if using math markup
 
   # Localization strings
@@ -59,7 +60,7 @@ theme_settings:
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   # Post navigation
-  post_navigation: false
+  post_navigation: true
 
 # PAGINATION
 paginate: 5
@@ -67,7 +68,7 @@ paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
-highlighter: rouge
+highlighter: rogue
 sass:
   sass_dir: _sass
   style: :compressed
