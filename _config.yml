@@ -1,0 +1,41 @@
+# Site Settings
+title:               Not a Note
+tagline:             Catatan Pribadi
+description:
+baseurl:            #"/Lagrange"
+url:                #"https://lenpaul.github.io"
+github:
+  url:               #"https://lenpaul.github.io/Lagrange"
+author:
+  name:              "Rudi Adha Prihandoko"
+  email:             "rudi@ugm.ac.id"
+  twitter:           "prihandokorudi"
+  # instagram:         "paululele"
+  github:            "rud72k"
+  facebook:          "ruuds"
+  linkedin:          "prihandoko"
+navigation:
+- title: About
+  url: /about/
+- title: Writing
+  url: /writing/
+- title: Contact
+  url: /contact/
+- title: Real
+  url: /lecture/real
+- title: Complex
+  url: /lecture/complex
+- title: Matematika
+  url: /lecture/matematika-tp
+
+paginate:            5
+disqus:              "rudistaff"
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+gems:                
+- jekyll-paginate
+- gemoji
+
