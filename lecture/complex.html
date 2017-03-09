@@ -1,0 +1,646 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      Complex Variable | Not a Note
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <!-- MathJax -->
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+  </script>
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+<!-- KaTeX -->
+<!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+ -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80213386-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">Not a Note</a>
+    <small class="masthead-subtitle">Catatan Pribadi</small>
+    <div class="menu">
+  <div class="menu-content">
+    
+    <a class="element first  " href="/about/">About</a>
+    
+    <a class="element   " href="/writing/">Writing</a>
+    
+    <a class="element   " href="/contact/">Contact</a>
+    
+    <a class="element   " href="/lecture/real">Real</a>
+    
+    <a class="element  current " href="/lecture/complex">Complex</a>
+    
+    <a class="element   last" href="/lecture/matematika-tp">Matematika</a>
+    
+  </div>
+  <div class="social-icons">
+    <a href="https://github.com/rud72k"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://twitter.com/prihandokorudi"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://instagram.com/"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://linkedin.com/in/prihandoko"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+    <a href="mailto:rudi@ugm.ac.id"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+  </div>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  Complex Variable
+</h1>
+
+<p>Konten:</p>
+
+<h1 id="pengenalan-bilangan-kompleks">Pengenalan Bilangan Kompleks</h1>
+
+<h2 id="rangkuman">Rangkuman</h2>
+
+<p>Bilangan kompleks $z$ bisa dituliskan dalam bentuk $(x,y)$ dengan $x$
+dan $y$ berturut-turut disebut sebagai bagian real dan bagian imaginer
+dari $z$;</p>
+
+<script type="math/tex; mode=display">\textrm{Re}\left( z \right) = x, 
+            \qquad \textrm{Im}\left( z \right) = y.</script>
+
+<p>Penjumlahan dan
+perkalian dua bilangan kompleks $z_1 = (x_1,y_1)$ dan $z_2 = (x_2,y_2)$
+didefinisikan sebagai berikut:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}
+     (x_1,y_1) + (x_2, y_2 ) &= (x_1 + x_2, y_1 + y_2) \\
+     (x_1,y_1)(x_2,y_2) &= (x_1x_2 - y_1y_2, x_1y_2 + x_2y_1) 
+\end{aligned} %]]></script>
+
+<p>Modulus dari bilangan kompleks $z=(x,y)$ yang
+dinotasikan dengan $|z|$ didefinisikan sebagai bilangan real tak negatif
+$|z| = \sqrt{x^2 + y^2}$.</p>
+
+<h2 id="latihan">Latihan</h2>
+
+<ol>
+  <li>
+    <p>Verifikasi perhitungan berikut</p>
+
+    <ol>
+      <li>
+        <p>$\left( \sqrt{2}-i\right) -i\left( 1-\sqrt{2}i\right) =  -2i$</p>
+      </li>
+      <li>
+        <p>$\left( 2,-3\right) \left( -2,1\right) =\left( -1,8\right) $</p>
+      </li>
+      <li>
+        <p>$\left( 3,1\right) \left( 3,-1\right) \left( \frac{1}{5},\frac{1}{10}%
+                \right) =\left( 2,1\right) $</p>
+      </li>
+      <li>
+        <p>$\left( \frac{1+\sqrt{5}i}{2}\right) \left( \frac{1-\sqrt{5}i}{2}%
+                \right) =  \frac{3}{2}$</p>
+      </li>
+      <li>
+        <p>$\left( 1+i\right) \left( 1+2i\right) \left( 1+4i\right) = 
+                -13-i$</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Sederhanakan ekspresi-ekspresi berikut
+<script type="math/tex">\frac{1+2i}{3-4i}  + \frac{2-i}{5i}; \qquad 
+                \frac{5i}{(1-i)(2-i)(3-i)}; \qquad 
+                (1-i)^4.</script></p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa untuk sebarang bilangan kompleks $z$ berlaku</p>
+
+    <ol>
+      <li>
+        <p>$\textrm{Re}\left( iz\right) =-\textrm{Im}\left(z\right)$ dan
+$\textrm{Im}\left( iz\right) =\textrm{Re}\left(z\right)$</p>
+      </li>
+      <li>
+        <p>$\left( 1+z\right) ^{2}=  z^{2}+2z+1$</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa</p>
+
+    <p>$
+                (a) \,\, (-1)z=-z \qquad \qquad(b)\,\, \frac{1}{1/z} =z (z\neq 0).
+            $</p>
+  </li>
+  <li>
+    <p>Verifikasi bahwa kedua bilangan $z=1\pm i$ memenuhi persamaan $
+        z^{2}-2z+2=0$.</p>
+  </li>
+  <li>
+    <p>Buktikan bahwa untuk sebarang tiga bilangan kompleks $z_{1}$ dan
+$z_{2}$ berlaku:</p>
+
+    <ol>
+      <li>
+        <p>sifat komutatif <script type="math/tex">z_{1}z_{2}=z_{2}z_{1}</script></p>
+      </li>
+      <li>
+        <p>asosiatif <script type="math/tex">(z_1 +z_2) + z_3 = z_1 + (z_2 + z_3) \qquad dan 
+                        \qquad (z_1z_2)z_3 = z_1 (z_2z_3)</script></p>
+      </li>
+      <li>
+        <p>distributif <script type="math/tex">z_1(z_2 + z_3) = z_1z_2 + z_1z_3.</script></p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Gunakan sifat asosiatif untuk penjumlahan dan sifat distributif
+untuk menunjukkan bahwa <script type="math/tex">z(z_1 + z_2 + z_3) = zz_1 + zz_2 + zz_3.</script></p>
+  </li>
+  <li>
+    <p>Dengan sifat asosiatif dan sifat komutatif perkalian, tunjukkan
+bahwa <script type="math/tex">(z_1z_2)(z_3z_4) = (z_1z_3)(z_2z_4)</script></p>
+  </li>
+  <li>
+    <p>Buktikan bahwa jika $z_1z_2z_3 =0$, maka salah satu faktor adalah
+$0$.</p>
+  </li>
+  <li>
+    <p>Dengan menuliskan $i=(0,1)$ dan $x=(x,0)$, perlihatkan bahwa
+$-(iy)=(-i)y=i(-y)$.</p>
+  </li>
+  <li>
+    <p>Cari solusi dari persamaan $z^2 +z+1=0$ untuk $z=(x,y)$ dengan cara
+menuliskan persamaan tersebut dalam bentuk
+<script type="math/tex">(x,y)(x,y)+(x,y)+(1,0)=(0,0)</script> kemudian menyelesaikan sistem
+persamaan dalam $x$ dan $y$ tersebut.</p>
+  </li>
+  <li>
+    <p>Tentukan lokasi bilangan $z_1+z_2$ dan $z_1 -z_2$ dengan vektor jika
+diketahui</p>
+
+    <ol>
+      <li>
+        <p>$z_1 = 2i, \quad z_2 = \frac 23 - i$</p>
+      </li>
+      <li>
+        <p>$z_1 = (-\sqrt3,1), \quad z_2=(\sqrt 3,0)$</p>
+      </li>
+      <li>
+        <p>$z_1 = (-3,1), \quad z_2 = (1,4)$</p>
+      </li>
+      <li>
+        <p>$z_1 = x_1 + iy_1, \qquad z_2 = x_1 - iy_1$</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Buktikan bahwa
+$\sqrt 2\vert z\vert \geq \vert \textrm{Re} \left( z\right) \vert + \vert \textrm{Im}\left(z\right) \vert$.</p>
+
+    <table>
+      <tbody>
+        <tr>
+          <td>Hint : Reduksi persamaan menjadi $ (</td>
+          <td>x</td>
+          <td>-</td>
+          <td>y</td>
+          <td>)^2\geq 0 $.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p>Pada masing-masing kasus, sketsalah himpunan titik-titik yang
+merupakan tempat kedudukan yang memenuhi kondisi yang diberikan:</p>
+
+    <table>
+      <tbody>
+        <tr>
+          <td>a. $</td>
+          <td>z-1+i</td>
+          <td>=1$</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <tbody>
+        <tr>
+          <td>b. $</td>
+          <td>z+i</td>
+          <td>\leq 3</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <tbody>
+        <tr>
+          <td>c. $</td>
+          <td>z-4i</td>
+          <td>\geq 4.$</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p>Dengan menggunakan bahwa $|z_1 - z_2| $ adalah jarak diantara dua
+titik $z_1$ dan $z_2$, berikan argumen geometris bahwa
+<script type="math/tex">|z-1| = |z+i|</script> merepresentasikan garis yang melewati titik asal
+dengan gradien $-1$.</p>
+  </li>
+</ol>
+
+<h1 id="konjugat-kompleks">Konjugat Kompleks</h1>
+
+<h2 id="rangkuman-1">Rangkuman</h2>
+
+<p>Konjugat kompleks dari bilangan $z=x+iy$ dilambangkan dengan $\bar{z}$,
+didefinisikan sebagai $\bar{z}=x-iy$.</p>
+
+<h3 id="sifat-sifat">Sifat-sifat</h3>
+
+<ol>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>$\overline{\bar{z}}=z$ dan $</td>
+          <td>\bar{z}</td>
+          <td>=</td>
+          <td>z</td>
+          <td>$.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p>$\overline{z_1 + z_2} = \overline{z_1} + \overline{z_2}$ dan
+$\overline{z_1 - z_2} = \overline{z_1} - \overline{z_2}$.</p>
+  </li>
+  <li>
+    <p>$\overline{z_1 z_2} = \overline{z_1} \overline{z_2}$.</p>
+  </li>
+  <li>
+    <p>$\overline{\left( \frac{z_1}{z_2}\right)} = \frac{\overline{z_1}} { \overline{z_2}}$
+$\qquad$ $\left( z_2 \neq 0\right)$.</p>
+  </li>
+  <li>
+    <p>$\textrm{Re } z = \frac{z+\bar z}2$ dan
+$\textrm{Im } z = - \frac{z-\bar z }2$.</p>
+  </li>
+  <li>
+    <p>$z \bar z = | z|^2$ sehingga $\frac 1z = \frac{\bar z }{|z|^2}$ jika
+$z \neq 0$.</p>
+  </li>
+  <li>$|z_1 z_2 | = |z_1|\ |z_2|$ dan
+$\left \vert \frac{z_1}{z_2} \right \vert = \frac{z_1}{z_2}$</li>
+</ol>
+
+<p>Misalkan koordinat polar $(r,\theta)$ berkorespondensi dengan bilangan
+kompleks tak nol $z=x+iy$. Karena $x=r \cos \theta$ dan
+$y=r \sin \theta$ maka $z$ bisa dituliskan dalam bentuk
+<script type="math/tex">z = r(\cos \theta + i \sin \theta).</script> Bilangan real $r$ menyatakan
+panjang vektor $z$ sedangkan bilangan real $\theta$ menyatakan sudut
+(yang dibentuk dengan sumbu real positif), atau disebut juga ,
+dinotasikan dengan . Karena $\sin$ dan $\cos$ adalah fungsi periodik,
+maka banyak $\theta$ yang nilai fungsinya sama. Nilai $\theta$, sehingga
+$-\pi &lt; \theta \leq \pi $ disebut argumen prinsipal, dan dinotasikan
+dengan . Berlaku pula kesamaan</p>
+
+<script type="math/tex; mode=display">\arg z = \text{Arg }z + 2n \pi \qquad (n=0, \pm 1, \pm2, \dots).</script>
+
+<p><strong>Formula Euler</strong>. Simbol $e^{i\theta}$ atau $\exp(i\theta)$ (atau
+kadang disebut juga cis $\theta$) didefinisikan sebagai</p>
+
+<script type="math/tex; mode=display">e^{i\theta} = cos \theta + i \sin \theta</script>
+
+<p>Perkalian dua bilangan kompleks $z_1 = e^{i\theta_1}$
+$ z_2 = e^{i\theta_2}$ menghasilkan</p>
+
+<script type="math/tex; mode=display">z_1 z_2 = e^{i\theta_1} e^{i\theta_2} = e^{i(\theta_1 + \theta_2)}</script>
+
+<p><strong>Formula De Moivre</strong> Untuk bilangan real $\theta$ dan bilangan bulat
+$n$ berlaku</p>
+
+<script type="math/tex; mode=display">\left(e^{i \theta}\right)^n = e^{in\theta}</script>
+
+<p>atau bisa
+ditulis dalam bentuk</p>
+
+<script type="math/tex; mode=display">(\cos \theta + i \sin \theta)^n = \cos n \theta + i \sin n\theta.</script>
+
+<h2 id="latihan-1">Latihan</h2>
+
+<ol>
+  <li>
+    <p>Gunakan sifat-sifat moduli untuk membuktikan bahwa</p>
+
+    <ol>
+      <li>
+        <p>$\overline{\bar z + 3i} = z -3i$</p>
+      </li>
+      <li>
+        <p>$\overline{iz}=-i\bar z$</p>
+      </li>
+      <li>
+        <p>$\overline{(2+i)^2}=3-4i$</p>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>$</td>
+              <td>(2\bar z + 5)(\sqrt 2 - i)</td>
+              <td>= \sqrt 3 \</td>
+              <td>2z+5</td>
+              <td>$</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Sketsalah masing-masing himpunan titik yang ditentukan dengan
+kondisi berikut</p>
+
+    <ol>
+      <li>
+        <p>$\textrm{Re }(\bar z -i)=2$</p>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>$</td>
+              <td>2z - i</td>
+              <td>= 4$</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Buktikan bahwa
+$\overline{z_1 z_2 z_3} = \overline{z_1}\overline{z_2}\overline{z_3}$
+dan $\overline{z^4} = \overline{z}^4$</p>
+  </li>
+  <li>
+    <p>Buktikan bahwa jika $z_2$ dan $z_3$ tak kosong, berlaku :</p>
+
+    <ol>
+      <li>
+        <p>$\overline{\left( \dfrac {z_1}{z_2 z_3 } \right)} = \dfrac{\overline{z_1}}{\overline{z_2} \ \overline {z_3}}$</p>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>$\left \vert \dfrac{z_1}{z_2 z_3} \right \vert = \dfrac{\vert z_1 \vert}{</td>
+              <td>z_2</td>
+              <td>\</td>
+              <td>z_3</td>
+              <td>}$</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Untuk setiap bilangan kompleks $z_1,z_2,z_3,z_4$, jika
+$|z_3| \neq |z_4|$,
+<script type="math/tex">\left\vert \dfrac{z_1 + z_2}{z_3 + z_4} \right\vert \leq \dfrac{|z_1| + |z_2|}{\left\vert |z_3| - |z_4| \right\vert}.</script></p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa
+$| \textrm{Re}(2+\bar z + z^3)| \leq 4 \qquad \textrm{saat } |z| \leq 1 $</p>
+  </li>
+  <li>
+    <p>Buktikan bahwa jika $|z|=2$ maka berlaku
+<script type="math/tex">\left\vert \frac{1}{z^4 - 4z^2 +3} \right\vert \leq \frac 13</script></p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa $|z_1 + z_2| \leq (|z_1| + |z_2|)$ dengan
+menguadratkan kedua luas terlebih dahulu dan menunjukkan bahwa
+$z_1\overline{z_2} + \overline{z_1\overline{z_2}} = 2 \textrm{ Re }z_1\overline{z_2} \leq 2 |z_1||z_2|$.</p>
+  </li>
+  <li>
+    <p>Tentukan argumen prinsipal $z$ jika diketahui:</p>
+
+    <ol>
+      <li>
+        <p>$z = \dfrac i{-2-2i}$</p>
+      </li>
+      <li>
+        <p>$z= (\sqrt3 -i )^6$</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa $e^{i\theta}$ = 1. Tunjukkan pula bahwa
+$\overline{e^{i\theta}} = e^{-i\theta} $</p>
+  </li>
+  <li>
+    <p>Dengan menggunakan formula De Moivre, turunkan kesamaan trigonometri
+berikut:</p>
+
+    <ol>
+      <li>
+        <p>$\cos 3\theta = \cos ^3 \theta - 3 \cos \theta \sin^2\theta$</p>
+      </li>
+      <li>
+        <p>$\sin 3 \theta = \cos^2 \theta\sin \theta - \sin^3 \theta$.</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Jika Re $z_1 &gt;0$ dan Re $z_2$ &gt;0 buktikan bahwa
+<script type="math/tex">\textrm{Arg }z_1z_2 = \textrm{Arg }z_1 + \textrm{Arg } z_2.</script></p>
+  </li>
+  <li>
+    <p>Buktikan bahwa dua bilangan kompleks $z_1$ dan $z_2$ mempunyai
+modulus yang sama jika dan hanya jika terdapat bilangan kompleks
+$c_1$ dan $c_2$ sehingga $z_1 = c_1c_2$ dan
+$z_2 = c_1 \overline{c_2}$.</p>
+
+    <p><em>Hint:</em> Tinjau bahwa</p>
+
+    <script type="math/tex; mode=display">\exp(i(\theta_1 + \theta_2)/2) \exp(i(\theta_1 - \theta_2)/2) = \exp(i\theta_1)</script>
+
+    <p>dan</p>
+
+    <p><script type="math/tex">\exp(i(\theta_1 + \theta_2)/2) \overline{\exp(i(\theta_1 - \theta_2)/2)} = \exp(i\theta_2)</script>.</p>
+  </li>
+  <li>
+    <p>Buktikan identitas berikut untuk $z\neq1$,
+<script type="math/tex">1+z+z^2 + \cdots + z^n = \frac{1-z^{n+1}}{1-z}.</script> Buktikan pula
+identitas berikut untuk $0&lt;\theta &lt; 2\pi$,</p>
+
+    <script type="math/tex; mode=display">1+ \cos\theta + \cos 2\theta + \cdots + \cos n \theta = \frac 12 + \frac{\sin[(2n+1)\theta /2]}{2\sin (\theta /2)}.</script>
+  </li>
+</ol>
+
+<h1 id="akar-dari-bilangan-kompleks">Akar dari bilangan kompleks</h1>
+
+<h2 id="rangkuman-2">Rangkuman</h2>
+
+<p>Dua bilangan kompleks tak nol $z_1 = r_1 e^{i\theta _1}$ dan
+$z_2 = r_2 e^{i\theta _2}$ sama jika dan hanya jika untuk suatu bilangan
+bulat $k$.</p>
+
+<p>Jika $z^n = z$ maka
+<script type="math/tex">z = \sqrt[n]{r_0} \exp \left[ i\left( \frac{\theta _0 }n + \frac{2k \pi}{n}\right) \right] \qquad (k=0,\pm 1, \pm 2,\dots)</script>
+Semua akar berbeda persamaan tersebut didapat saat $k=0,1,2,\dots, n-1$.
+Akar yang memiliki argumen prinsipal disebut .</p>
+
+<p><strong>Root of Unity</strong> Akar-akar berbeda dari persamaan $z^n = 1$ yaitu
+$\exp(i(2k\pi)/n)$ untuk $k=1,2,…,n-1$, disebut <em>root of unity</em> dan
+dilambangkan dengan</p>
+
+<script type="math/tex; mode=display">1,\omega_n, \omega_n^2,...,\omega_n^{n-1}.</script>
+
+<p>Salah
+satu sifat yang menarik adalah, jika $c$ adalah salah satu dari <em>root of
+unity</em>, maka</p>
+
+<script type="math/tex; mode=display">c,c\omega_n, c\omega_n^2,...,c\omega_n^{n-1}.</script>
+
+<p>juga
+merupakan akar-akar berbeda pada root of unity.</p>
+
+<h2 id="latihan-2">Latihan</h2>
+
+<ol>
+  <li>
+    <p>Tentukan akar kuadrat dari $2i$ dan $1-\sqrt3 i$ dan nyatakan dalam
+bentuk $a+bi$.</p>
+  </li>
+  <li>
+    <p>Tentukan masing-masing akar yang diminta pada ekspresi, kemudian
+nyatakan dalam $a+bi$, kemudian tentukan akar prinsipalnya.</p>
+
+    <ol>
+      <li>
+        <p>$(-16)^{1/4}$</p>
+      </li>
+      <li>
+        <p>$(-8-8\sqrt3 i )^{1/4}$</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Pada tiap kasus, tentukan akar yang diminta, nyatakan dalam $a+bi$,
+nyatakan dalam gambar sebagai titik-titik sudut suatu poligon,
+kemudian identifikasi akar prinsipalnya.</p>
+
+    <ol>
+      <li>
+        <p>$(-1)^{1/3}$</p>
+      </li>
+      <li>
+        <p>$8^{1/6}$</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Misalkan pada persamaan $z^n = z_0$, dengan
+$z_0 = -4\sqrt 2 + 4 \sqrt 2 i $. Tentukan ketiga akar prinsipal
+dari persamaan tersebut.</p>
+
+    <p><em>Hint :</em> tiga akar persamaan kubik dapat ditulis sebagai
+$c_0,c_0\omega_3,c_0\omega_3^2$ untuk sebarang akar prinsipal $c_0$.</p>
+  </li>
+  <li>
+    <p>Buktikan bahwa akar kuadrat dari $a+i$ adalah
+<script type="math/tex">\pm \frac 1{\sqrt2} \left( \sqrt{A+a} + i \sqrt{A-a}\right).</script></p>
+  </li>
+  <li>
+    <p>Tentukan akar pangkat 4 dari $z^4 +4 $ lalu gunakan hasil tersebut
+untuk memfaktorkan $z^4 +4$ menjadi dua faktor dengan
+koefisien real.</p>
+  </li>
+  <li>
+    <p>Misalkan $c$ adalah root of unity ke-$n$ dengan $c\neq1$, buktikan
+bahwa <script type="math/tex">1+ c + c^2 + \cdots + c^{n-1} = 0.</script></p>
+  </li>
+</ol>
+
+
+    </div>
+
+    <footer class="footer">
+  <a href="https://github.com/rud72k"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://twitter.com/prihandokorudi"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://instagram.com/"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://linkedin.com/in/prihandoko"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+  <a href="mailto:rudi@ugm.ac.id"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+  <div class="post-date"><a href="/about/">Not a Note | Catatan Pribadi by Rudi Adha Prihandoko</a></div>
+</footer>
+
+
+  </div>
+
+  <script>
+      renderMathInElement(
+          document.getElementById("test"),
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
+</body>
+</html>

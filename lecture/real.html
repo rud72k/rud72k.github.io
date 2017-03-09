@@ -1,0 +1,624 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      Introduction to Real Analysis | Not a Note
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <!-- MathJax -->
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+  </script>
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+<!-- KaTeX -->
+<!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+ -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80213386-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">Not a Note</a>
+    <small class="masthead-subtitle">Catatan Pribadi</small>
+    <div class="menu">
+  <div class="menu-content">
+    
+    <a class="element first  " href="/about/">About</a>
+    
+    <a class="element   " href="/writing/">Writing</a>
+    
+    <a class="element   " href="/contact/">Contact</a>
+    
+    <a class="element  current " href="/lecture/real">Real</a>
+    
+    <a class="element   " href="/lecture/complex">Complex</a>
+    
+    <a class="element   last" href="/lecture/matematika-tp">Matematika</a>
+    
+  </div>
+  <div class="social-icons">
+    <a href="https://github.com/rud72k"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://twitter.com/prihandokorudi"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://instagram.com/"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://linkedin.com/in/prihandoko"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+    <a href="mailto:rudi@ugm.ac.id"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+  </div>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  Introduction to Real Analysis
+</h1>
+
+<h2 id="daftar-isi"><a href="/">Daftar Isi</a></h2>
+
+<ul>
+  <li><a href="#pointwise-and-uniformly-convergen">Pointwise and Uniformly Convergent</a>
+    <ul>
+      <li><a href="#rangkuman">Rangkuman</a></li>
+      <li><a href="#latihan">Latihan</a></li>
+    </ul>
+  </li>
+  <li><a href="#interchange-of-limit">Interchange of Limit</a>
+    <ul>
+      <li><a href="#rangkuman-2">Rangkuman</a></li>
+      <li><a href="#latihan-2">Latihan</a></li>
+    </ul>
+  </li>
+  <li><a href="#metrik">Metrik</a>
+    <ul>
+      <li><a href="#rangkuman-3">Rangkuman</a></li>
+      <li><a href="#latihan-3">Latihan</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="pointwise-and-uniformly-convergen">Pointwise and Uniformly Convergen</h1>
+
+<h2 id="rangkuman">Rangkuman</h2>
+
+<p><strong>Definisi</strong> Misalkan $(f_n)$ adalah barisan fungsi yang terdefinisi di
+$A\subseteq \mathbb{R}$ dan $A_0 \subseteq A$. Misalkan pula
+$f:A \rightarrow \mathbb{R}$. Barisan $(f_n)$ dikatakan konvergen di
+$A_0$ ke $f$ jika untuk setiap $x\in A_0$, barisan $(f_n(x))$ konvergen
+ke $f(x)$ di $\mathbb{R}$. Pada kasus ini $f$ disebut sebagai limit dari
+barisan $(f_n)$ di $A_0$. Jika fungsi $f$ yang demikian ada, maka
+$(f_n)$ dikatakan konvergen di $A_0$ atau $(f_n)$ konvergen
+titik-demi-titik di $A_0$.</p>
+
+<p><strong>Teorema</strong> Suatu barisan fungsi $(f_n)$di $A\subseteq \mathbb{R}$ konvergen ke
+fungsi $f:A_0 \rightarrow \mathbb{R}$ jika dan hanya jika untuk setiap
+$\epsilon &gt;0$ dan untuk setiap $x\in A_0$ terdapat bilangan asli
+$K(\epsilon,x)$ sedemikian hingga jika $n\geq K(\epsilon,x)$ maka
+berlaku</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\vert f_n(x)-f(x)\vert < \epsilon. %]]></script>
+
+<p><strong>Definisi</strong> Suatu barisan fungsi $(f_n)$ pada $A\subseteq \mathbb{R}$ konvergen
+seragam pada $A_0 \subseteq A$ ke fungsi $f:A\rightarrow \mathbb{R}$
+jika untuk setiap $\epsilon &gt;0$ terdapat bilangan asli $K(\epsilon)$
+(bergantung hanya pada $\epsilon$, tidak pada $x$)sedemikian hingga
+untuk setiap $n\ge K(\epsilon)$ berlaku</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\vert f_n(x)  - f(x) \vert < \epsilon \qquad \forall x\in A_0. %]]></script>
+
+<p>Pada
+kasus demikian kita katakan $(f_n)$ konvergen seragam ke $A_0$.</p>
+
+<p><strong>Teorema</strong> Suatu barisan fungsi $(f_n)$ di $A\subseteq \mathbb R$ tidak konvergen
+seragam di $A_0 \subseteq A$ ke fungsi $f:A\rightarrow \mathbb R$ jika
+dan hanya jika untuk suatu $\epsilon_0 &gt;0$ terdapat subbarisan
+$(f_{n_k})$ dari $(f_n)$ dan suatu barisan $(x_k)$ di $A_0$ sehingga</p>
+
+<script type="math/tex; mode=display">\vert f_{n_k} (x_k) - f(x_k) \vert \geq \epsilon_0 \qquad \forall k\in \mathbb{N}</script>
+
+<p><strong>Definisi</strong> Misalkan $A\subseteq \mathbb R$ dan $\varphi:A \rightarrow \mathbb R$
+adalah suatu fungsi. Fungsi $\varphi$ dikatakan terbatas di $A$ jika
+himpunan $\varphi(A)$ adalah subset terbatas di $\mathbb R$. Jika
+$\varphi$ terbatas, didefinisikan norma seragam pada $\varepsilon$ di
+$A$ dengan</p>
+
+<script type="math/tex; mode=display">\Vert \varphi \Vert_A := \sup \{ \vert \varphi (x)\vert : x\in A\}.</script>
+
+<p><strong>Teorema</strong> Suatu barisan terbatas $(f_n)$ di $A\subseteq \mathbb R$ kovergen
+seragam di $A$ ke $f$ jika dan hanya jika
+$\Vert f_n -f \Vert_A \rightarrow 0$.</p>
+
+<p><strong>(Kriteria Cauchy untuk kekonvergenan seragam)</strong> Misalkan $(f_n)$
+adalah barisan fungsi terbatas di $A\subseteq \mathbb R$. Maka barisan
+ini konvergen seragam ke suatu fungsi terbatas $f$ jika dan hanya jika
+untuk setiap $\epsilon &gt;0$ terdapat bilangan $H(\epsilon)$ di
+$\mathbb N$ sehingga untuk setiap $m,n \geq H(\epsilon)$, berlaku
+$\Vert f_m - f_n \Vert_A \leq \epsilon$.</p>
+
+<h2 id="latihan">Latihan</h2>
+
+<ol>
+  <li>
+    <p>Tunjukan bahwa $\lim(x/(x+n))=0$ untuk setiap $x\in \mathbb R, x\geq 0$.</p>
+  </li>
+  <li>
+    <p>Tunjukan bahwa $\lim(nx/(1+n^2x^2))=0$ untuk setiap $x\in \mathbb R$.</p>
+  </li>
+  <li>
+    <p>Tentukan $\lim(nx/(1+nx))$ untuk setiap $x\in \mathbb R, x\geq 0$.</p>
+  </li>
+  <li>
+    <p>Tentukan $\lim(x^n/(1+x^n))$ untuk setiap $x\in \mathbb R, x\geq 0$.</p>
+  </li>
+  <li>
+    <p>Tentukan $\lim((\sin nx)/(1+nx))$ untuk setiap $x\in \mathbb R, x\geq 0$.</p>
+  </li>
+  <li>
+    <p>Tunjukan bahwa $\lim(\arctan nx) = (\pi/2) \cdot \sgn(x)$.</p>
+  </li>
+  <li>
+    <p>Evaluasi nilai $\lim (e^{-nx})$ untuk suatu $x\in \mathbb{R}$, $x\ge 0$.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa $\lim(xe^{-nx})=0$ untuk $x\in \mathbb R$, $x\ge 0$.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa $\lim(x^2e^{-nx})=0$ dan $\lim(n^2x^2e^{-nx})=0$ untuk $x\in \mathbb R,x\ge 0$.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa $\lim\left((\cos \pi x)^{2n} \right)$ ada untuk
+setiap $x \in \mathbb R$. Tentukan nilai limit tersebut.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa jika $a&gt;0$ maka konvergensi pada (1) adalah
+konvergen seragam pada interval $[0,a]$, tapi tidak konvergen
+seragam pada interval $[0,\infty)$.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa jika $a&gt;0$ maka konvergensi pada (2) adalah
+konvergen seragam pada interval $[a,\infty)$, tapi tidak konvergen
+seragam pada interval $[0,\infty]$.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa jika $a&gt;0$ maka konvergensi pada (3) adalah
+konvergen seragam pada interval $[a,\infty)$, tapi tidak konvergen
+seragam pada interval $[0,\infty]$.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa jika $0 &lt; b &lt; 1 $,maka konvergensi pada (4)
+konvergen pada interval $[0,b]$ tapi tidak konvergen pada interval
+$[0,1]$.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa jika $ a &gt;0$ maka konvergensi pada (5) adalah
+konvergen seragam pada interval $[a,\infty)$, tapi tidak konvergen
+seragam pada interval $[0,\infty]$.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa jika $a&gt;0$ maka konvergensi pada (6) adalah
+konvergen seragam pada interval $[a,\infty)$, tapi tidak konvergen
+seragam pada interval $(0,\infty]$.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa jika $a&gt;0$ maka konvergensi pada (7) adalah
+konvergen seragam pada interval $[a,\infty)$, tapi tidak konvergen
+seragam pada interval $[0,\infty]$.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa konvergensi pada (8) adalah konvergen seragam
+pada $[0,\infty)$.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa barisan $(x^2 e^{-nx})$ konvergen seragam pada
+$[0,\infty)$.</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa jika $a&gt;0$, maka barisan $(n^2 x^2 e^{-nx})$
+konvergen seragam pada interval $[a,\infty)$ tapi tidak konvergen
+seragam pada inverval $[0,\infty)$</p>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa jika $f(x)=x+1/n$ dan $f(x)=x$ untuk setiap
+$x\in \mathbb R$ maka $(f_n)$ konvergen seragam di $\mathbb R$ ke
+$f$, tapi $(f_n^2)$ tidak konvergen seragam di $\mathbb R$.</p>
+  </li>
+  <li>
+    <p>[jumlahseragam] Tunjukkan bahwa jika $(f_n)$ dan $(g_n )$
+konvergen seragam pada himpunan $A$, berturut-turut ke fungsi $f$
+dan $g$, maka barisan $(f_n + g_n)$ konvergen seragam pada himpunan
+$A$ ke fungsi $f+g$.</p>
+  </li>
+  <li>
+    <p>[kaliseragam] Tunjukkan bahwa jika $(f_n)$ dan $(g_n )$ barisan
+fungsi terbatas yang konvergen seragam pada himpunan $A$,
+berturut-turut ke fungsi $f$ dan $g$, maka barisan $(f_ng_n)$
+konvergen seragam pada himpunan $A$ ke fungsi $fg$.</p>
+  </li>
+  <li>
+    <p>Misalkan $(f_n)$ adlaah fungsi yang konvergen seragam ke $f$ di $A$
+dan memenuhi $\vert f_n (x) \vert \le M$ untuk setiap
+$n\in \mathbb N $ dan setiap $x \in A$. Jika $g$ kontinu pada
+interval $[-M,M]$, tunjukkan bahwa barisan $(g\circ f_n)$ konvergen
+seragam ke $g \circ f$ pada $A$.</p>
+  </li>
+</ol>
+
+<h1 id="interchange-of-limit">Interchange of Limit</h1>
+
+<h2 id="rangkuman-1">Rangkuman</h2>
+
+<p><strong>Teorema</strong> Misalkan $(f_n)$ adalah barisan fungsi kontinu pada himpunan
+$A \subseteq \mathbb R$ dan misalkan pula $(f_n)$ konvergen seragam ke
+suatu fungsi $f:A \to \mathbb R$. Maka $f$ kontinu di $A$.</p>
+
+<p><strong>Teorema</strong> Misalkan $J \subseteq \mathbb R$ adalah interval terbatas dan $(f_n)$
+adalah barisan fungsi pada $J$ ke $R$. Misalkan terdapat $x_0 \in J$
+sehingga $(f_n (x_0))$ konvergen, dan barisan turunan fungsi
+$(f_n^{\prime})$ ada di $J$ dan konvergen seragam di $J$ ke suatu fungsi
+$g$. Akibatnya, barisan fungsi $(f_n)$ konvergen seragam di $J$ ke suatu
+fungsi $f$ yang punya turunan di setiap titik di $J$ dan $f^{\prime}=g$.</p>
+
+<p><strong>Teorema</strong> Misalkan $(f_n)$ adalah barisan fungsi di $R[a,b]$ dan misalkan
+pula $(f_n)$ konvergen seragam pada $[a,b]$ ke suatu fungsi $f$.
+Akibatnya $f\in R[a,b]$ dan berlaku</p>
+
+<script type="math/tex; mode=display">\int_a^b f = \lim_{n \to \infty} \int_a^b f_n.</script>
+
+<p><strong>(Teorema Konvergen Terbatas)</strong> Misalkan $(f_n)$ adalah barisan fungsi
+di ${R}[a,b]$ yang konvergen pada [a,b] ke suatu fungsi
+$f\in [a,b]$. Misalkan pula terdapat $B&gt;0$ sedemikian hingga
+$\vert f_n(x)\vert \leq B$ untuk semua $x\in [a,b],n\in \mathbb N$, maka
+berlaku</p>
+
+<script type="math/tex; mode=display">\int_a^b f = \lim_{n \to \infty} \int_a^b f_n.</script>
+
+<p><strong>(Teorema Dini)</strong> Misalkan $(f_n)$ adalah barisan fungsi kontinu yang
+monoton pada interval terbatas $I$ yang konvergen di $I$ ke suatu fungsi
+$f$. Maka kekonvergenan barisan tersebut adalah konvergen seragam.</p>
+
+<h2 id="latihan-1">Latihan</h2>
+
+<ol>
+  <li>
+    <p>Tunjukan barisan $(x^n/(1+x^n))$ tidak konvergen seragam di selang
+$[0,2]$ dengan memperlihatkan bahwa limit fungsi tersebut tidak
+kontinu di $[0,2]$.</p>
+  </li>
+  <li>
+    <p>Buktika bahwa barisan (1) adalah barisan fungsi kontinu tidak
+seragam ke suatu fungsi kontinu.</p>
+  </li>
+  <li>
+    <p>Konstruksi suatu barisan fungsi di $[0,1]$ yang masing-masing
+diskontinu di setiap titik di $[0,1]$ yang konvergen seragam ke
+suatu fungsi yang kontinu di setiap titik.</p>
+  </li>
+  <li>
+    <p>Misalkan $(f_n)$ adalah barisan fungsi kontinu di interval $I$ yang
+konvergen seragam di $I$ ke suatu fungsi $f$. Jika $(x_n) \in I$
+konvergen ke $x_0 \in I$, buktikan bahwa $\lim (f_n (x_n))=f(x_0)$.</p>
+  </li>
+  <li>
+    <p>Misalkan $f : \mathbb R \to \mathbb R$ kontinu seragam di
+$\mathbb R$ dan misalkan $f_n(x)=f(x+1/n)$ untuk $x \in \mathbb R$.
+Tunjukkan bahwa $(f_n)$ konvergen seragam di $\mathbb R$ ke $f$.</p>
+  </li>
+</ol>
+
+<p>(TO BE CONTINUED!)</p>
+
+<h1 id="metrik">Metrik</h1>
+
+<h2 id="rangkuman-2">Rangkuman</h2>
+
+<p>Pada himpunan tak kosong $X$, suatu fungsi
+$d : X \times X \to \mathbb R$ disebut metrik jika untuk sebarang $x,y$
+dan $z$ di $X$ berlaku:</p>
+
+<ol>
+  <li>
+    <p>$d(x,y) \ge 0$</p>
+  </li>
+  <li>
+    <p>$d(x,y) = 0 \iff x=y$</p>
+  </li>
+  <li>
+    <p>$d(x,y) = d(y,x)$</p>
+  </li>
+  <li>
+    <p>$d(x,y) + d(y,z) \geq d(x,z)$.</p>
+  </li>
+</ol>
+
+<p>Suatu himpunan tak kosong yang dilengkapi metrik disebut ruang metrik.</p>
+
+<p>Pada ruang linear $X$, suatu fungsi real $| \cdot |$ yang bernilai tak
+negatif disebut norma jika untuk setiap $u$ dan $v$ di $X$, dan sebarang
+$\alpha$ di lapangan (<em>(</em>underlying field)), berlaku:</p>
+
+<ol>
+  <li>
+    <p>$| u | =0 \iff u=0$</p>
+  </li>
+  <li>
+    <p>$| u+v | \leq |u | + |v |$</p>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>$|\alpha u | =</td>
+          <td>\alpha</td>
+          <td>|u |$</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ol>
+
+<p>Dari suatu norma pada ruang linear bisa dibuat metrik dari norma
+tersebut (kadang disebut metrik terinduksi) dengan mendefinisikan</p>
+
+<script type="math/tex; mode=display">d(x,y) = \| x - y \|</script>
+
+<p>Dua metrik $\rho$ dan $\sigma$ pada $X$ dikatakan ekuivalen jika
+terdapat $m$ dan $M$ sehingga
+<script type="math/tex">m \cdot \sigma (x,y) \leq \rho (x,y) \leq M \cdot \sigma(x,y)</script> untuk
+sebarang $x$ dan $y$ di $X$.</p>
+
+<p>Suatu pemetaan dari ruang metrik $(X,\rho)$ ke ruang metrik $(Y,\sigma)$
+disebut isometri jika memenuhi</p>
+
+<script type="math/tex; mode=display">\sigma(f(x_1),f(x_2))=\rho(x_1,x_2)</script>
+
+<h2 id="latihan-2">Latihan</h2>
+
+<ol>
+  <li>
+    <p>Buktikan bahwa fungsi-fungsi berikut adalah suatu metrik di
+$\mathbb R$</p>
+
+    <ol>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>$d(x,y) =</td>
+              <td>x-y</td>
+              <td>$</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>$d(x,y) = \sqrt{</td>
+              <td>x-y</td>
+              <td>}$</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Buktikan bahwa fungsi-fungsi berikut adalah suatu metrik di
+$\mathbb R^n$.</p>
+
+    <script type="math/tex; mode=display">\rho(x,y) = |x_1 - y_1| + |x_2 - y_2 | + \cdots + |x_n - y_n|;</script>
+
+    <script type="math/tex; mode=display">\sigma(x,y) = \max\{ |x_1 - y_1| + |x_2 - y_2 | + \cdots + |x_n - y_n|\}</script>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa dua metrik $\sigma$ dan $\rho$ pada himpunan $X$
+ekuivalen jika dan hanya jika terdapat $c&gt;0$ sehingga untuk setiap
+$u,v \in X$ berlaku</p>
+
+    <script type="math/tex; mode=display">\frac 1c \sigma(u,v) \leq \rho (u,v) \leq c   \sigma (u,v)</script>
+  </li>
+  <li>
+    <p>Tunjukkan bahwa untuk sebarang $a,b,c \ge 0$ sehingga $a \le b+c$
+berlaku</p>
+
+    <script type="math/tex; mode=display">\frac a{1+a} \leq \frac b{1+b} + \frac c{1+c}</script>
+  </li>
+  <li>
+    <p>Jika $(X,d)$ adalah ruang metrik dan $d^*(x,y) = d(x,y)/(1+d(x,y))$
+perlihatkan bahwa $(X,d^*)$ juga ruang metrik. Perlihatkan pula
+bahwa untuk $d_{1/2}(x,y) = \sqrt{d(x,y)}$, maka $(X,d_{1/2})$
+merupakan ruang metrik.</p>
+  </li>
+  <li>
+    <p>Ditinjau koleksi ruang metrik <script type="math/tex">\{(X_n,d_n)\}_{k=1}^{N}</script>.
+Didefinisikan fungsi $d$ pada produk kartesian $X=\Pi_{k=1}^N X_k$ dengan</p>
+
+    <script type="math/tex; mode=display">d(x,y) = \sum_{k=1}^N \frac 1{2^n} \frac{d(x,y)}{1+d(x,y)}</script>
+
+    <p>dengan $x=(x_1,x_2,…,x_n)$ dan $y=(y_1,y_2,…,y_n)$ di $X$.
+Buktikan bahwa $(X,d)$ adalah ruang metrik.</p>
+  </li>
+  <li>
+    <p>Jika $(X,d)$ adalah suatu ruang metrik, buktikan bahwa $(X,d^*)$
+dengan</p>
+
+    <script type="math/tex; mode=display">d^*(x,y) = \min \{ 1, d(x,y)\}</script>
+
+    <p>juga merupakan
+ruang metrik.</p>
+  </li>
+  <li>
+    <p>Ditinjau fungsi</p>
+
+    <script type="math/tex; mode=display">% <![CDATA[
+d(x,y) =  
+        \begin{cases}
+            |x_1 - y_1|                     & \textrm{if } x_2 = y_2 \\
+            |x_1| + |x_2 - y_2| + |y_1|     & \textrm{if } x_2 \neq y_2
+        \end{cases} %]]></script>
+
+    <p>untuk sebarang $(x_1,x_2)$ dan
+$(y_1,y_2)$ di $\mathbb R^2$. Perlihatkan bahwa $(\mathbb R^2,d)$
+adalah ruang metrik.</p>
+  </li>
+  <li>
+    <p>Misalkan $X$ adalah himpunan semua fungsi kontinu dari $[a,b]$ ke
+$\mathbb R$. Untuk setiap $x,y$ di $X$, didefinisikan</p>
+
+    <script type="math/tex; mode=display">d(x,y) = \max\{ |x(t) - y(t)| : t \in [a,b]\}</script>
+
+    <p>Buktikan bahwa
+$(X,d)$ adalah ruang metrik.</p>
+  </li>
+  <li>
+    <p>Misalkan $X$ adalah himpunan semua fungsi kontinu dari $[a,b]$ ke
+$\mathbb R$. Untuk setiap $x,y$ di $X$, didefinisikan</p>
+
+    <script type="math/tex; mode=display">d(x,y) = \int_a^b |x(t)-y(t)| \ dt.</script>
+
+    <p>Buktikan bahwa $(X,d)$
+adalah ruang metrik.</p>
+  </li>
+  <li>
+    <p>Pada interval tutup $[a,b]$ ditinjau himpunan fungsi kontinu
+bernilai real $C[a,b]$. Tunjukkan bahwa metrik yang diinduksi oleh
+norma maksimum dan yang diinduksi oleh $L^1[a,b]$ tidak ekuivalen.</p>
+  </li>
+  <li>
+    <p>Misalkan $X$ adalah himpunan semua fungsi terbatas dari suatu
+himpunan $A$ ke $\mathbb R$. Untuk sebarang $x,y$ di $X$,
+didefinisikan</p>
+
+    <script type="math/tex; mode=display">d(x,y) = \sup \{ |x(t) - y(t)| : t\in A\}</script>
+
+    <p>Buktikan
+bahwa $(X,d)$ adalah ruang metrik.</p>
+  </li>
+  <li>
+    <p>Misalkan $(X,d)$ adalah ruang metrik. Misalkan $p$ adalah titik di
+$X$. Metrik $d_p$ pada $X$ didefinisikan dengan</p>
+
+    <script type="math/tex; mode=display">% <![CDATA[
+d_p(x,y)=
+                        \begin{cases}
+                            0                   & \textrm{if } x=y \\
+                            d(x,p) + d(y,p)     & \textrm{if } x \neq y
+                        \end{cases} %]]></script>
+
+    <p>Buktikan bahwa $(X,d_p)$  adalah ruang metrik.</p>
+  </li>
+  <li>
+    <p>Metrik $d$ pada ruang metrik $(X,d)$ disebut <em>ultrametrik</em> jika berlaku</p>
+
+    <script type="math/tex; mode=display">d(x,y) \le \max\\{d(x,z),d(z,y)\\}</script>
+
+    <p>untuk sebarang $x,y,z \in X$.</p>
+
+    <ol>
+      <li>
+        <p>Tunjukan bahwa metrik Euclid di $\mathbb R^n$, untuk $n \ge 2$
+bukan merupakan ultrametrik.</p>
+      </li>
+      <li>
+        <p>Misalkan $p$ adalah sebarang bilangan prima $p \ge 2$. Untuk
+sebarang bilangan tak nol $x\in \mathbb Q$, terdapat bilangan
+bulat $n$ sehingga <script type="math/tex">x = p^n \frac u v</script> untuk suatu $u$ dan $v$
+yang tidak habis dibagi $p$. Definisikan $|x|_p = n$. Tunjukkan
+bahwa</p>
+
+        <script type="math/tex; mode=display">% <![CDATA[
+d_p (x,y) = 
+                            \begin{cases}
+                                0                   & \textrm{jika }x=y \\
+                                p^{-|x-y|_p}        & \textrm{jika }x \neq y
+                            \end{cases} %]]></script>
+
+        <p>adalah suatu
+ultrametrik di $\mathbb Q$.
+Metrik ini disebut juga metrik $p$-adic.</p>
+      </li>
+      <li>
+        <p>Jika $(X,d)$ adalah ultrametrik, tunjukan bahwa setiap segitiga
+di $X$ adalah segitiga samakaki. Tunjukkan pula bahwa setiap
+titik pada bola, adalah pusat bola tersebut.</p>
+      </li>
+    </ol>
+  </li>
+</ol>
+
+
+    </div>
+
+    <footer class="footer">
+  <a href="https://github.com/rud72k"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://twitter.com/prihandokorudi"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://instagram.com/"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://linkedin.com/in/prihandoko"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+  <a href="mailto:rudi@ugm.ac.id"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+  <div class="post-date"><a href="/about/">Not a Note | Catatan Pribadi by Rudi Adha Prihandoko</a></div>
+</footer>
+
+
+  </div>
+
+  <script>
+      renderMathInElement(
+          document.getElementById("test"),
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
+</body>
+</html>
