@@ -37,5 +37,5 @@ highlighter:         rouge
 permalink:           none
 gems:                
 - jekyll-paginate
-- gemoji
+- jemoji
 
