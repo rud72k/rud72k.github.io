@@ -21,12 +21,6 @@ navigation:
   url: /writing/
 - title: Contact
   url: /contact/
-- title: Real
-  url: /lecture/real
-- title: Complex
-  url: /lecture/complex
-- title: Matematika
-  url: /lecture/matematika-tp
 
 paginate:            5
 disqus:              "rudistaff"
