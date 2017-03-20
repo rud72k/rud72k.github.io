@@ -12,21 +12,21 @@ If you are having any problems, any questions or suggestions, feel free to [twee
 
 ## Find me on these
 
-:office: 
+:office: Office
 :    Math Building 3rd Floor, Faculty of Science UGM.
 	 Sekip Utara BLS 21  • Yogyakarta, Indonesia
 
 
-:house_with_garden: 
+:house_with_garden: House
 :    Pogung Lor 116, Sleman • Yogyakarta, Indonesia
 
 
-:mailbox: 
-:    Academic matters • rudi at ugm dot ac dot id
+:mailbox: Email
+:    Academic affair • rudi at ugm dot ac dot id
 
 
-:mailbox: 
-:    Personal matters • rudi at prihandoko dot id
+:mailbox: Email
+:    Personal affair • rudi at prihandoko dot id
 
 
 
