@@ -15,4 +15,3 @@ While my research interest is widespread, I've been assigned in the Laboratory o
 ## This page
 
 Generated with [Jekyll](jekyllrb.org) • Lagrange Themes by [@LeNPaul](https://github.com/LeNPaul/Lagrange/)
-• Favicon by [freefavicon](https://www.freefavicon.com/freefavicons/objects/iconinfo/registry-book-152-75799.html)
