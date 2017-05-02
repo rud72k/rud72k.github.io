@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Bandung at Dawn"
 location: "Bandung"
