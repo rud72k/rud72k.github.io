@@ -26,4 +26,4 @@ Dengan segala kemacetannya, dengan segala keramahannya, dengan segala kecantikan
 Kuteruskan perjalananku dengan hati yang berkecamuk. Satu-satu kutapaki ubin trotoar yang berwarna-warni dan dengan satu _lane_  di tengah-tengah yang dikhususkan untuk tunanetra. 
 Langkahku semain kupercepat seiring naiknya sang fajar yang mulai merekah di ufuk timur.  Juga kulakukan agar semua kenangan ini cepat merasuk tanpa harus merajuk untuk tetap tinggal. 
 
-Au Revoir!
+### _Au Revoir!_
