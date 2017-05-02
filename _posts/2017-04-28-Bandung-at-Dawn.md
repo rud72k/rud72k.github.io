@@ -1,5 +1,11 @@
 ﻿---
 layout: post
+title: "Bandung at Dawn"
+location: "Bandung"
+tag:
+- Pidi Baiq
+- Bandung
+- kenangan 
 ---
 
 Dingin yang menusuk tak kuhirau. Aku berjalan menyusuri jalan yang akhir-akhir ini sering menjadi pusat perhatian orang-orang. Meski tak masuk dalam jajaran alasanku, tak ayal sekali dua kali aku memperhatikan rinci yang dahulu selalu terlewatkan. Memang semenjak walikota yang baru ini naik, banyak fasilitas publik yang diperbaiki. Atau mungkin sekedar diperhatikan. Ah, apa pula hakku mengatakan demikian, kafilah yang hanya menumpang lewat di kota yang katanya dibuat dari kegembiraan, hanya mampu berterima kasih karena masih disediakan seciduk air dan rejeki di rantau yang jauh dari sanak.
