@@ -17,8 +17,8 @@ tag:
 ---
 
 Setelah laptop lama saya pensiun dengan terpaksa, saya akhirnya memutuskan untuk membawa pulang Dell Inspiron 7460 <sup id="f1">[1](#inspiron7460)</sup>. Meski tidak terlalu powerful (karena emang nggak dipake buat yang berat-berat), namun nggak cupu-cupu amat lah. Setelah sok-sokan menghapus partisi windows dan memasang debian jessie, bertemulah dengan masalah bahwa:
-leptop ini dual vga pake teknologi optimus yang mana linux belum ada support _resmi_nya. Maksud saya, bisa sih pakai bumblebee (debian based), cuman yaitu, harus manual satu2 kalau mau menjalankan si nvidia. Di satu sisi bener-bener pengen balik lagi ke linux, di sisi lain `lsusb -l' dan `lspci -l' nya jessie nggak memunculkan kata nvdia sama sekali. Yaudah nyerah deh. 
-Eh belum ding, sempat nyobain ubuntu live, dan `lspci -l' nya ubuntu mau mendeteksi si gpu. Tapi apa boleh dikata, nasi sudah menjadi bubur, sekalian aja di kecapi biar nikmat. Akhirnya dengan terpaksa clbk ke windows lagi. 
+leptop ini dual vga pake teknologi optimus yang mana linux belum ada support _resmi_nya. Maksud saya, bisa sih pakai bumblebee (debian based), cuman yaitu, harus manual satu2 kalau mau menjalankan si nvidia. Di satu sisi bener-bener pengen balik lagi ke linux, di sisi lain `lsusb -l` dan `lspci -l` nya jessie nggak memunculkan kata nvdia sama sekali. Yaudah nyerah deh. 
+Eh belum ding, sempat nyobain ubuntu live, dan `lspci -l` nya ubuntu mau mendeteksi si gpu. Tapi apa boleh dikata, nasi sudah menjadi bubur, sekalian aja di kecapi biar nikmat. Akhirnya dengan terpaksa clbk ke windows lagi. 
 
 DAAAAAN..... saya menguras kuota harian donlot dengan mengupdate windows, setelah sebelumnya donlot iso windows di miror kampus. Kampus saya kerjasama dengan Microsoft btw. Beliau memberikan 
 kampus kami jendela dengan edisi _home_, _pro_, dan _education_. Bedanya apa? Sok, silakan gugling sendiri. Oh iya, saya akhirnya memakai versi Education (bawaan lepi aslinya hanya yang pro).
@@ -30,12 +30,12 @@ And yes, the updates worth every penny spent. (Yaiyalah, nol rupiah)
 
 Tampilan windows 10 versi terakhir jauh lebih oke dari yang standar. Atau mungkin ini hanya bayangan saya saja. Karena saya lupa nggak skrinsut windows 10 awal, jadi saya nggak memberi perbandingan disini. 
 
-	!(desktop)[/images/post/2017/6/desktop1.png]
+!(desktop)[/images/post/2017/6/desktop1.png]
 
 Klik tombol start mungkin Anda-anda sudah biasa. Nggak perlu saya skrinsutkan. Tapi klik kanan tombol start memunculkan menu baru yang dulu tidak ada dan kebetulan saya sering memakainya (dulu pas sedang pake windows). Jadi buat saya ini suatu keuntungan. 
 Panel kanan pun cukup informatif dibandingkan sebelum update. 
 
-	!(desktop)[/images/post/2017/6/desktop2.png]
+!(desktop)[/images/post/2017/6/desktop2.png]
 
 (gambar ini diskrinsut belakangan)
 
@@ -50,7 +50,7 @@ Kata "siri" dan "cortana" hanya memiliki satu kesamaan huruf, yaitu "r". Itu pun
 
 Tapi mungkin ini sah-sah saja sih. Toh windows dan cortana di dalamnya merupakan produk Microsoft sedangkan Siri adalah produk Apple, saingan Microsoft. But still it leaves bad aftertaste. 
 
-	!(desktop)[/images/post/2017/6/desktop3.png]
+!(desktop)[/images/post/2017/6/desktop3.png]
 
 Next. Next.
 
@@ -58,7 +58,7 @@ Next. Next.
 Hal berikutnya yang saya lakukan adalah mencari berkas instalasi rubah api dan pokeball-like browser. Tentu saja saya ogah memakai IE11. Untungnya di windows 10 ada yang namanya Edge. Yang, sejauh ingatan saya, sangat cepat. Dan baiklah saya mengeklik gambar si Edge. Anda tau apa yang muncul?
 Salam selamat datang yang,... Ah, anda bisa lihat sendiri. 
 
-	!(desktop)[/images/post/2017/6/edge1.png]
+!(desktop)[/images/post/2017/6/edge1.png]
 
 Another (almost) black campaign. Yasudahlah. 
 
@@ -66,25 +66,25 @@ Lalu saya mengetikkan `firefox download' di kolom alamat. Bagi Anda yang suka be
 
 Di masa lalu, pencarian 'bla-bla-bla download' akan mengarah ke halaman resmi yang dilanjutkan dengan salah satu laman download dari halaman resmi. Namun sepertinya hal ini tidak berlaku untuk Bing dan Edge yang kolaborasi dengan windows 10. 
 
-	!(desktop)[/images/post/2017/6/edge2.png]
+!(desktop)[/images/post/2017/6/edge2.png]
 
 Such a coward move!
 
 Sembari menginstall firefox, saya mengunduh chrome. Kali ini tidak se-savage firefox. Chrome mungkin tau bahwa dia akan disabotasi oleh musuhnya, jadi ia membeli iklan chrome ke bing, mungkin juga ke google (otomatis lah ini), dan juga ke mesin-mesin pencari lain. Bahkan pencarian via bing (terintegrasi dengan edge by default) menghasilkan satu kolom profile chrome di satu kolom kanan hasil dari pencarian. 
 
-	!(desktop)[/images/post/2017/6/edge3.png]
+!(desktop)[/images/post/2017/6/edge3.png]
 
 Sementara langkah yang diambil edge sampai segila itu, ternyata si firefox adem ayem saja. Buktinya ketika pertama kali masuk firefox, ia hanya meminta menjadi default dan tidak ribut ketika saya pilih pilihan not now. Tampilan awal firefox pun cukup adem. Tidak provokatif. 
 
-	!(desktop)[/images/post/2017/6/firefox1.png]
+!(desktop)[/images/post/2017/6/firefox1.png]
 
 dan saya suka backgroundnya :) 
 
-	!(desktop)[/images/post/2017/6/firefox2.png]
+!(desktop)[/images/post/2017/6/firefox2.png]
 
 Kebetulan selama ini saya memang pengguna setia firefox. Seenggaknya sampai tulisan ini dibuat. Langkah penginstallan chrome hanyalah untuk mengetes laman web, apakah konsisten di banyak browser atau tidak. (Sori safari, opera, dlsb, giliran kalian belum ya). Dan dari ketiga browser ini, chrome lah yang pantas menyandang gelar paling savage. Kalau firefox hanya minta default browser, si edge hanya bilang dia lebih unggul, kalau chrome berani nyuruh-nyuruh penggunanya dan mencampakkan musuhnya. 
 
-	!(desktop)[/images/post/2017/6/chrome1.png]
+!(desktop)[/images/post/2017/6/chrome1.png]
 
 Ah I'm not gonna using it in the near future anyway.
 
