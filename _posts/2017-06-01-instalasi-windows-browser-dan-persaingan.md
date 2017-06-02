@@ -30,12 +30,12 @@ And yes, the updates worth every penny spent. (Yaiyalah, nol rupiah)
 
 Tampilan windows 10 versi terakhir jauh lebih oke dari yang standar. Atau mungkin ini hanya bayangan saya saja. Karena saya lupa nggak skrinsut windows 10 awal, jadi saya nggak memberi perbandingan disini. 
 
-!(desktop)[/images/post/2017/6/desktop1.png]
+!(desktop)[{{ site.url }}{{ base.url }}/images/post/2017/6/desktop1.png]
 
 Klik tombol start mungkin Anda-anda sudah biasa. Nggak perlu saya skrinsutkan. Tapi klik kanan tombol start memunculkan menu baru yang dulu tidak ada dan kebetulan saya sering memakainya (dulu pas sedang pake windows). Jadi buat saya ini suatu keuntungan. 
 Panel kanan pun cukup informatif dibandingkan sebelum update. 
 
-!(desktop)[/images/post/2017/6/desktop2.png]
+!(desktop)[{{ site.url }}{{ base.url }}/images/post/2017/6/desktop2.png]
 
 (gambar ini diskrinsut belakangan)
 
@@ -50,7 +50,7 @@ Kata "siri" dan "cortana" hanya memiliki satu kesamaan huruf, yaitu "r". Itu pun
 
 Tapi mungkin ini sah-sah saja sih. Toh windows dan cortana di dalamnya merupakan produk Microsoft sedangkan Siri adalah produk Apple, saingan Microsoft. But still it leaves bad aftertaste. 
 
-!(desktop)[/images/post/2017/6/desktop3.png]
+!(desktop)[{{ site.url }}{{ base.url }}/images/post/2017/6/desktop3.png]
 
 Next. Next.
 
@@ -58,7 +58,7 @@ Next. Next.
 Hal berikutnya yang saya lakukan adalah mencari berkas instalasi rubah api dan pokeball-like browser. Tentu saja saya ogah memakai IE11. Untungnya di windows 10 ada yang namanya Edge. Yang, sejauh ingatan saya, sangat cepat. Dan baiklah saya mengeklik gambar si Edge. Anda tau apa yang muncul?
 Salam selamat datang yang,... Ah, anda bisa lihat sendiri. 
 
-!(desktop)[/images/post/2017/6/edge1.png]
+!(desktop)[{{ site.url }}{{ base.url }}/images/post/2017/6/edge1.png]
 
 Another (almost) black campaign. Yasudahlah. 
 
@@ -66,25 +66,25 @@ Lalu saya mengetikkan `firefox download' di kolom alamat. Bagi Anda yang suka be
 
 Di masa lalu, pencarian 'bla-bla-bla download' akan mengarah ke halaman resmi yang dilanjutkan dengan salah satu laman download dari halaman resmi. Namun sepertinya hal ini tidak berlaku untuk Bing dan Edge yang kolaborasi dengan windows 10. 
 
-!(desktop)[/images/post/2017/6/edge2.png]
+!(desktop)[{{ site.url }}{{ base.url }}/images/post/2017/6/edge2.png]
 
 Such a coward move!
 
 Sembari menginstall firefox, saya mengunduh chrome. Kali ini tidak se-savage firefox. Chrome mungkin tau bahwa dia akan disabotasi oleh musuhnya, jadi ia membeli iklan chrome ke bing, mungkin juga ke google (otomatis lah ini), dan juga ke mesin-mesin pencari lain. Bahkan pencarian via bing (terintegrasi dengan edge by default) menghasilkan satu kolom profile chrome di satu kolom kanan hasil dari pencarian. 
 
-!(desktop)[/images/post/2017/6/edge3.png]
+!(desktop)[{{ site.url }}{{ base.url }}/images/post/2017/6/edge3.png]
 
 Sementara langkah yang diambil edge sampai segila itu, ternyata si firefox adem ayem saja. Buktinya ketika pertama kali masuk firefox, ia hanya meminta menjadi default dan tidak ribut ketika saya pilih pilihan not now. Tampilan awal firefox pun cukup adem. Tidak provokatif. 
 
-!(desktop)[/images/post/2017/6/firefox1.png]
+!(desktop)[{{ site.url }}{{ base.url }}/images/post/2017/6/firefox1.png]
 
 dan saya suka backgroundnya :) 
 
-!(desktop)[/images/post/2017/6/firefox2.png]
+!(desktop)[{{ site.url }}{{ base.url }}/images/post/2017/6/firefox2.png]
 
 Kebetulan selama ini saya memang pengguna setia firefox. Seenggaknya sampai tulisan ini dibuat. Langkah penginstallan chrome hanyalah untuk mengetes laman web, apakah konsisten di banyak browser atau tidak. (Sori safari, opera, dlsb, giliran kalian belum ya). Dan dari ketiga browser ini, chrome lah yang pantas menyandang gelar paling savage. Kalau firefox hanya minta default browser, si edge hanya bilang dia lebih unggul, kalau chrome berani nyuruh-nyuruh penggunanya dan mencampakkan musuhnya. 
 
-!(desktop)[/images/post/2017/6/chrome1.png]
+!(desktop)[{{ site.url }}{{ base.url }}/images/post/2017/6/chrome1.png]
 
 Ah I'm not gonna using it in the near future anyway.
 
@@ -93,7 +93,7 @@ Thanks for reading, dan silakan berikan opini apa browser kesukaan Anda di kolom
 
 <hr>
 
-<b id="inspiron7460">1</b>: Kaby Lake i5-7200 2.50 GHz | 4GB RAM | GT 940MX 4GB | SSD 128 + HDD 500GB | FHD 13.3" [&21a9;](#f1)
+<b id="inspiron7460">1</b>: Kaby Lake i5-7200 2.50 GHz --- 4GB RAM --- GT 940MX 4GB --- SSD 128 + HDD 500GB --- FHD 13.3" [↩](#f1)
 
-<b id="siri">2</b>: Bagi Anda yang tidak tahu, Siri adalah perangkat lunak buatan Apple yang fungsinya sama dengan Jarvis tadi.  [&21a9;](#f2)
+<b id="siri">2</b>: Bagi Anda yang tidak tahu, Siri adalah perangkat lunak buatan Apple yang fungsinya sama dengan Jarvis tadi.  [↩](#f2)
 
