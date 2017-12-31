@@ -9,3 +9,4 @@ Gemfile.lock
 *.bak
 *.aaa
 *.fdb_latexmk
+_config.yml

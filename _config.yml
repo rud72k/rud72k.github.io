@@ -32,6 +32,7 @@ markdown:            kramdown
 highlighter:         rouge
 permalink:           none
 gems:                
-- jekyll-paginate
+- jekyll-paginate 
 - jemoji
+- jekyll-admin
 
