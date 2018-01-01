@@ -1,5 +1,7 @@
 ---
 published: true
+layout: post
+location: third world country
 ---
 ## A New Year, A New Post
 
