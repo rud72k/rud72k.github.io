@@ -2,6 +2,7 @@
 title: Background Effect
 layout: post
 location: blogosphere
+published: true
 ---
 
 Iseng-iseng nyari _background_ yang simple tapi nggak pakai gradien. Dapat di [_codepen_](https://codepen.io/). _It's save a lot of time_. Daripada belajar lagi. hahahaha... atau saya sudah mulai tua hingga sudah karatan otaknya untuk belajar lagi. Dari empat yang lagi saya akhirnya pilih, _startrails_ masih belum jalan, dan yang _polygonal_ masih belum nemu masalahnya kenapa warna _background_-nya nggak bisa berubah.
