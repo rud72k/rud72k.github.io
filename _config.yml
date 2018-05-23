@@ -35,4 +35,7 @@ gems:
 - jekyll-paginate 
 - jemoji
 - jekyll-admin
-
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-feed
+- jekyll-archives
