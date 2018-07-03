@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Bye-bye Dragonfly
 
@@ -78,4 +78,3 @@ See you in a flash, Rainbow Dash
 I'll be back, Apple Jack
 I'll be back, Spike
 We'll miss ya, Princess Celestia
-
