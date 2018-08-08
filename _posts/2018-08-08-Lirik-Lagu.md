@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Song's Lyrics
 tags:
 - proposal
 - daisakusen
