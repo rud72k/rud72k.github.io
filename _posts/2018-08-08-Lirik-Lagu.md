@@ -14,14 +14,18 @@ tags:
 published: true
 ---
 
-I were listening some Japanese songs this afternoon. Curious, I searched the lyrics as well as its translation. Got stunned. Here two songs I listened.
+I were listening some Japanese songs this afternoon. Curious, I searched the lyrics as well as its translation. Here two songs I listened.
+
 
 1. [Ashita Hareru Kana](#Ashita-Hareru-Kana)
 2. [Goodbye Days](#goodbye-days)
 
+
 Btw, I watched on YouTube at this link [Keisuke Kuwata](https://www.youtube.com/watch?v=1_UJ3HgpzNI) and  [Yui](https://www.youtube.com/watch?v=cSD0ct3RVQA).
 
+
 Credit goes to the original singer and creator.
+
 
 Ashita Hareru Kana
 ------------------
