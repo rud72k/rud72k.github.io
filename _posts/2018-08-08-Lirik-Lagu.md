@@ -11,7 +11,6 @@ tags:
   - mirai
   - final fantasy
   - ffix
-published: true
 ---
 
 ![https://source.unsplash.com/YCQFgqOzLmU/1600x900]

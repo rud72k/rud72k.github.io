@@ -1,16 +1,17 @@
 ---
 layout: post
 title: "Perpisahan"
+location: "self"
+date: 2019-01-01
 tags:
  - happy new year
  - new year
- - 2019
+ - "2019"
  - new year eve
  - cerita pendek
  - cerpen
  - 30hbc
  - 30 hari bercerita
- published: true
 ---
 
 "_Hari ini aku pulang. Mungkin agak sore aku ke rumahmu._"
@@ -92,3 +93,8 @@ Ruang tamu hening. Sangat hening sehingga jika ada jarum yang jatuh pun akan ter
 "Aku nggak bisa bilang enggak kalau kamu yang minta. Please, jangan minta aku untuk tinggal."
 
 Hanna terisak. Air matanya tak terbendung lagi. Satu-satunya suara di ruang tamu saat ini hanyalah sesenggukan Hanna. Tangannya mencoba menghapus air mata yang mengalir deras di pipinya. Entah sejak kapan kepalanya bersandar ke pundak manusia di depannya. Manusia yang mengombang-ambingkan perasaannya selama beberapa bulan terakhir. Manusia yang hanya mampir sebentar di hidupnya, untuk kemudian pergi, terbang entah kemana setelah meninggalkan banyak jejak di dalam kenangan-kenangan yang tak mudah dilupakan.
+
+
+--------------------
+
+[\*]: Mbribik diserap dari kata _bribe (v)_ yang berarti menyogok. Namun demikian, mbribik mengalami pergeseran makna. Mbribik di daerah saya berarti melakukan pendekatan kepada lawan jenis. Tidak harus melakukan sogokan dalam bentuk uang, namun bisa berupa apa saja baik omongan, kado, maupun tindakan yang (seolah-olah) _gentleman_ agar sang target merasa nyaman. 
