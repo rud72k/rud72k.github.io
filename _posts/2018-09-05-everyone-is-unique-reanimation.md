@@ -21,7 +21,7 @@ After some  times, I went back to my old room and found something precious, once
 Linkin Park - Reanimation
 -------------------------
 
-![LP-Reanimation]
+![LP-Reanimation](/images/post/2019/reanimation.jpg)
 
 This album was bought accidentally. At that time, I wanted to buy Hybrid Theory. Little did I knew, this new album released in the month I have money to buy cassette. At that time, one cassette were IDR 18k. An amount that I could gather within 18 weekday's days without bought anything and saved all of my pocket money. An 18-days suffering. Not because I would starving, but because I couldn't play at the playstation (PS) rental services.
 

@@ -14,6 +14,8 @@ tags:
  - 30 hari bercerita
 ---
 
+## Prolog: Air mata 
+
 "_Hari ini aku pulang. Mungkin agak sore aku ke rumahmu._"
 
 Sebuah pesan singkat masuk ke _handphone_ Hanna. Sesimpul senyum tersungging di wajahnya. Sudah sekitar sebulan dia intens berbalas pesan singkat dan saling menelepon. Dia pun merasa nyaman dengan kehadiran si lelaki. Sangat berbeda dengan hubungan mereka sebelum naik kelas. Dikatakan bermusuhan enggak juga, tapi dibilang berteman juga nggak pas karena mereka jarang sekali mengobrol. Titik nadirnya adalah ketika si lelaki mengantar teman ke rumahnya. Katanya ingin pedekate alias _mbribik_ [\*](\*). Itu dua bulan yang lalu. Entah mengapa, yang malah jadi deket adalah si lelaki, dan bukan temannya yang katanya mau pedekate. Hanna tahu bahwa dia tidak benar-benar suka kepada orang yang akan ditemuinya nanti sore. Tapi di sisi lain, tak juga bisa dipungkiri bahwa dia merasa nyaman berada di dekatnya, atau bahkan ketika ia mendapat pesan-pesan pendek darinya.
@@ -32,9 +34,9 @@ Sebuah pesan singkat masuk ke _handphone_ Hanna. Sesimpul senyum tersungging di 
 
 "Kenapa?"
 
-"Bahwa Aku masih belum bisa menerimamu apa adanya."
+"Bahwa Aku masih belum bisa menerimamu apa adanya. Atau mungkin karena aku malu denganmu, _maybe_?"
 
-"Sure, why? Are you gonna change your mind?"
+"Sure. I'm okay with that. Why? Are you gonna change your mind?"
 
 "I'm afraid that you gonna be disappointed."
 
@@ -42,7 +44,7 @@ Sebuah pesan singkat masuk ke _handphone_ Hanna. Sesimpul senyum tersungging di 
 
 -----------------------
 
-"_Kamu di rumah?_"
+"_Kamu di rumah?_" Satu pesan mauk ke telepon genggam Hanna.
 
 "_Ya._"
 
@@ -68,7 +70,7 @@ Sebuah pesan singkat masuk ke _handphone_ Hanna. Sesimpul senyum tersungging di 
 
 "_Kami sudah putus sejak sebulan yang lalu. Dia tidak bisa menerima bahwa kami sudah putus._"
 
-"_It doesn't make a sense. Kamu masih menghubungi dia. Bahkan ketika kamu nembak aku. Aku benci itu._"
+"_That was two. And it doesn't make a sense. Kamu masih menghubungi dia. Bahkan ketika kamu nembak aku. Aku benci itu._"
 
 "_Apa yang harus kulakukan?_"
 
@@ -92,9 +94,9 @@ Ruang tamu hening. Sangat hening sehingga jika ada jarum yang jatuh pun akan ter
 
 "Aku nggak bisa bilang enggak kalau kamu yang minta. Please, jangan minta aku untuk tinggal."
 
-Hanna terisak. Air matanya tak terbendung lagi. Satu-satunya suara di ruang tamu saat ini hanyalah sesenggukan Hanna. Tangannya mencoba menghapus air mata yang mengalir deras di pipinya. Entah sejak kapan kepalanya bersandar ke pundak manusia di depannya. Manusia yang mengombang-ambingkan perasaannya selama beberapa bulan terakhir. Manusia yang hanya mampir sebentar di hidupnya, untuk kemudian pergi, terbang entah kemana setelah meninggalkan banyak jejak di dalam kenangan-kenangan yang tak mudah dilupakan.
+Hanna terisak. Lagi. Air matanya tak terbendung. Satu-satunya suara di ruang tamu saat ini hanyalah sesenggukan Hanna. Tangannya mencoba menghapus air mata yang mengalir deras di pipinya. Entah sejak kapan kepalanya bersandar ke pundak manusia di depannya. Manusia yang mengombang-ambingkan perasaannya selama beberapa bulan terakhir. Manusia yang hanya mampir sebentar di hidupnya, untuk kemudian pergi, terbang entah kemana setelah meninggalkan banyak jejak di dalam kenangan-kenangan yang tak mudah dilupakan.
 
 
 --------------------
 
-[\*]: Mbribik diserap dari kata _bribe (v)_ yang berarti menyogok. Namun demikian, mbribik mengalami pergeseran makna. Mbribik di daerah saya berarti melakukan pendekatan kepada lawan jenis. Tidak harus melakukan sogokan dalam bentuk uang, namun bisa berupa apa saja baik omongan, kado, maupun tindakan yang (seolah-olah) _gentleman_ agar sang target merasa nyaman. 
+[\*]: Mbribik diserap dari kata _bribe (v)_ yang berarti menyogok. Namun demikian, mbribik mengalami pergeseran makna. Mbribik di daerah saya berarti melakukan pendekatan kepada lawan jenis. Tidak harus melakukan sogokan dalam bentuk uang, namun bisa berupa apa saja baik omongan, kado, maupun tindakan yang (seolah-olah) _gentleman_ agar sang target merasa nyaman.
