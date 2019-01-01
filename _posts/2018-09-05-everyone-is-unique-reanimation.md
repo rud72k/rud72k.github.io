@@ -1,4 +1,4 @@
------------
+---
 type: post
 layout: post
 title: "Everyone is unique: Reanimation"
@@ -14,7 +14,7 @@ tag:
  - old-gold
  - oldies
  published: true
----------------
+---
 
 
 

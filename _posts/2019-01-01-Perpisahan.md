@@ -1,5 +1,5 @@
------------
-tag:
+---
+tags:
  - happy new year
  - new year
  - 2019
@@ -8,10 +8,11 @@ tag:
  - cerpen
  - 30hbc
  - 30 hari bercerita
+
  layout: post
  title: "Perpisahan"
  published: true
----------------
+---
 
 "_Hari ini aku pulang. Mungkin agak sore aku ke rumahmu._"
 
