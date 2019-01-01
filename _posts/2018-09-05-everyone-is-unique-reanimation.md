@@ -1,5 +1,6 @@
 -----------
 type: post
+layout: post
 title: "Everyone is unique: Reanimation"
 tag:
  - cassette
@@ -30,7 +31,9 @@ Back to the topic, this one particular album is my first cassette-tape I bought.
 
 Put it into the tape, slowly pushed the play button. An opening that I never heard. Okay, this one is good, I thought. Second play should be Points of Authority, or at least that what I thought when saw the title was "Pts.OF.Athrty". I thought that was joke. The songs slowly played and at the same time stunned me.
 
+
 What is this.
+
 
 
 
