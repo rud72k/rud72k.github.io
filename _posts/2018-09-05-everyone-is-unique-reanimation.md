@@ -2,7 +2,7 @@
 type: post
 layout: post
 title: "Everyone is unique: Reanimation"
-tag:
+tags:
  - cassette
  - cassette-tape
  - tape

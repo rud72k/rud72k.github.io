@@ -8,7 +8,6 @@ tags:
  - cerpen
  - 30hbc
  - 30 hari bercerita
-
  layout: post
  title: "Perpisahan"
  published: true

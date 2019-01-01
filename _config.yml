@@ -15,8 +15,8 @@ author:
   facebook:          "ruuds"
   linkedin:          "prihandoko"
 navigation:
-- title: Lecture
-  url: "http://rudi.prihandoko.id/lecture"
+# - title: Lecture
+#   url: "http://rudi.prihandoko.id/lecture"
 - title: About
   url: /about/
 - title: Writing
@@ -31,8 +31,8 @@ disqus:              "rudistaff"
 markdown:            kramdown
 highlighter:         rouge
 permalink:           none
-gems:                
-- jekyll-paginate 
+gems:
+- jekyll-paginate
 - jemoji
 - jekyll-admin
 - jekyll-sitemap
