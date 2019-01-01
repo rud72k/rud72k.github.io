@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Everyone is unique: Reanimation"
+title: "Everyone is unique. Reanimation"
 tags:
  - cassette
  - cassette-tape
@@ -13,7 +13,6 @@ tags:
  - old-gold
  - oldies
 ---
-
 
 
 After some  times, I went back to my old room and found something precious, once: my collection of cassette-tape. Once collected them with blood, sweat, and tears (#halah).  I knew they're old. But they still have a place in the corner of my heart. Once I knew that every single ~person~ album are unique, with their own tales, with their own stories, whether with their creator or their owner. I couldn't ever had the heart to replace one with another. Some people called it love. Now, here's some of my saved collection, ones that not abandoned (yet).
