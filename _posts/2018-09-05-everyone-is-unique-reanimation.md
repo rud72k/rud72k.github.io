@@ -1,5 +1,4 @@
 ---
-type: post
 layout: post
 title: "Everyone is unique: Reanimation"
 tags:

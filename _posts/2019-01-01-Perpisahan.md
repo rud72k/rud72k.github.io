@@ -1,4 +1,6 @@
 ---
+layout: post
+title: "Perpisahan"
 tags:
  - happy new year
  - new year
@@ -8,8 +10,6 @@ tags:
  - cerpen
  - 30hbc
  - 30 hari bercerita
- layout: post
- title: "Perpisahan"
  published: true
 ---
 
