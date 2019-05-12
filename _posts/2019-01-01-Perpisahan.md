@@ -1,17 +1,18 @@
 ---
 layout: post
-title: "Perpisahan"
-location: "self"
-date: 2019-01-01
+title: Perpisahan
+location: self
+date: {}
 tags:
- - happy new year
- - new year
- - "2019"
- - new year eve
- - cerita pendek
- - cerpen
- - 30hbc
- - 30 hari bercerita
+  - happy new year
+  - new year
+  - '2019'
+  - new year eve
+  - cerita pendek
+  - cerpen
+  - 30hbc
+  - 30 hari bercerita
+published: false
 ---
 
 ## Prolog: Air mata
