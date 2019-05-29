@@ -19,7 +19,7 @@ published: true
 
 "_Hari ini aku pulang. Mungkin agak sore aku ke rumahmu._"
 
-Sebuah pesan singkat masuk ke _handphone_ Hanna. Sesimpul senyum tersungging di wajahnya. Sudah sekitar sebulan dia intens berbalas pesan singkat dan saling menelepon. Dia pun merasa nyaman dengan kehadiran si lelaki. Sangat berbeda dengan hubungan mereka sebelum naik kelas. Dikatakan bermusuhan enggak juga, tapi dibilang berteman juga nggak pas karena mereka jarang sekali mengobrol. Titik nadirnya adalah ketika si lelaki mengantar teman ke rumahnya. Katanya ingin pedekate alias _mbribik_ [\*](\*). Itu dua bulan yang lalu. Entah mengapa, yang malah jadi deket adalah si lelaki, dan bukan temannya yang katanya mau pedekate. Hanna tahu bahwa dia tidak benar-benar suka kepada orang yang akan ditemuinya nanti sore. Tapi di sisi lain, tak juga bisa dipungkiri bahwa dia merasa nyaman berada di dekatnya, atau bahkan ketika ia mendapat pesan-pesan pendek darinya.
+Sebuah pesan singkat masuk ke _handphone_ Hanna. Sesimpul senyum tersungging di wajahnya. Sudah sekitar sebulan dia intens berbalas pesan singkat dan saling menelepon. Dia pun merasa nyaman dengan kehadiran si lelaki. Sangat berbeda dengan hubungan mereka sebelum naik kelas. Dikatakan bermusuhan enggak juga, tapi dibilang berteman juga nggak pas karena mereka jarang sekali mengobrol. Titik nadirnya adalah ketika si lelaki mengantar teman ke rumahnya. Katanya ingin pedekate alias _mbribik_ [\*](bribe). Itu dua bulan yang lalu. Entah mengapa, yang malah jadi deket adalah si lelaki, dan bukan temannya yang katanya mau pedekate. Hanna tahu bahwa dia tidak benar-benar suka kepada orang yang akan ditemuinya nanti sore. Tapi di sisi lain, tak juga bisa dipungkiri bahwa dia merasa nyaman berada di dekatnya, atau bahkan ketika ia mendapat pesan-pesan pendek darinya.
 
 -------------------
 
@@ -100,4 +100,4 @@ Hanna terisak. Lagi. Air matanya tak terbendung. Satu-satunya suara di ruang tam
 ![hug](/images/post/2019/hug.jpg)
 --------------------
 
-[\*]: Mbribik diserap dari kata _bribe (v)_ yang berarti menyogok. Namun demikian, mbribik mengalami pergeseran makna. Mbribik di daerah saya berarti melakukan pendekatan kepada lawan jenis. Tidak harus melakukan sogokan dalam bentuk uang, namun bisa berupa apa saja baik omongan, kado, maupun tindakan yang (seolah-olah) _gentleman_ agar sang target merasa nyaman.
+[bribe]: Mbribik diserap dari kata _bribe (v)_ yang berarti menyogok. Namun demikian, mbribik mengalami pergeseran makna. Mbribik di daerah saya berarti melakukan pendekatan kepada lawan jenis. Tidak harus melakukan sogokan dalam bentuk uang, namun bisa berupa apa saja baik omongan, kado, maupun tindakan yang (seolah-olah) _gentleman_ agar sang target merasa nyaman.
