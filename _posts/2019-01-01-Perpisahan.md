@@ -39,7 +39,7 @@ Sebuah pesan singkat masuk ke _handphone_ Hanna. Sesimpul senyum tersungging di 
 
 "Sure. I'm okay with that. Why? Are you gonna change your mind?"
 
-"I'm afraid that you gonna be disappointed."
+"I'm afraid that you're gonna be disappointed."
 
 "Di masa depan, Aku nggak akan menyesal atas keputusan yang kuambil hari ini. Aku akan menyesal kalau aku nggak mencoba memperjuangkan ini."
 
