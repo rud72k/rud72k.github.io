@@ -12,7 +12,7 @@ tags:
   - cerpen
   - 30hbc
   - 30 hari bercerita
-published: false
+published: true
 ---
 
 ## Prolog: Air mata
