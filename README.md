@@ -6,4 +6,4 @@ A minimalist Jekyll theme for running a personal blog. For everything you would 
 
 # This Site
 
-This site is live at  [rudi.prihandoko.id](rudi.prihandoko.id)
+This site is live at  [rudi.prihandoko.id](http://rudi.prihandoko.id)
