@@ -2,7 +2,6 @@
 layout: post
 title: Perpisahan
 location: self
-date: {}
 tags:
   - happy new year
   - new year
