@@ -1,7 +1,4 @@
----
-layout: page
-title: Contact
----
+n
 
 ## How to Contact Me
 
