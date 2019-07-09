@@ -37,9 +37,7 @@ Lebih jauh lagi, Anda bisa mengambil gambar dari unsplash, lalu menaruh di websi
 
 ### Pexels: The Alt
 
-Website [pexels.com](https://pexels.com) adalah website kedua yang saya sambangi kalau-kalau di unsplash nggak nemu apa yang saya cari. Lisensi yang diberikan pexel mirip dengan unsplash, gratis tanpa atribusi, dan boleh diedit serta dimodifikasi. Ada beberapa hal yang tidak diijinkan oleh pixel. Lebih lengkapnya bisa dilihat di [Pexels.com](https://pexels.com)
-
-
+Website [pexels.com](https://pexels.com) adalah website kedua yang saya sambangi kalau-kalau di unsplash nggak nemu apa yang saya cari. Lisensi yang diberikan pexel mirip dengan unsplash, gratis tanpa atribusi, dan boleh diedit serta dimodifikasi. Ada beberapa hal yang tidak diijinkan oleh pixel. Lebih lengkapnya bisa dilihat di [Pexe]
 
 
 
