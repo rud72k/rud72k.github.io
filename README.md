@@ -6,4 +6,6 @@ A minimalist Jekyll theme for running a personal blog. For everything you would 
 
 # This Site
 
-This site is live at  [rudi.prihandoko.id](http://rudi.prihandoko.id)
+The site temporary unavailable [rudi.prihandoko.id](http://rudi.prihandoko.id)
+
+Now live at [rud72k.github.io](http://rud72k.github.io)
