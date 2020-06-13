@@ -2,7 +2,7 @@ n
 
 ## How to Contact Me
 
-Find me in my office on working hours. Notify me two or three hours in advance. On off hours, I'll be available on home address. Don't find me off hours unless it's unserious problem or really really really important. No pm please, but email would be great.
+Find me in my office on working hours. Notify me two or three hours in advance. On off hours, I'll be available on home address. Feel free to say hi to me at home. Contact me at my number email would be great.
 
 
 If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=%40prihandokorudi), or [email me](mailto:rudi@ugm.ac.id).
@@ -15,7 +15,7 @@ If you are having any problems, any questions or suggestions, feel free to [twee
 
 
 :house_with_garden: House
-:    Pogung Lor 116, Sleman • Yogyakarta, Indonesia
+:    Semail 7, Bangunharjo, Sewon • Bantul, Indonesia
 
 
 :mailbox: Email
@@ -23,7 +23,7 @@ If you are having any problems, any questions or suggestions, feel free to [twee
 
 
 :mailbox: Email
-:    Personal affair • rudi at prihandoko dot id
+:    Personal affair • prihandokorudi at gmail dot com
 
 
 
