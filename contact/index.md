@@ -1,3 +1,9 @@
+---
+layout: page
+title: Contact
+---
+
+
 ## Contact Me
 
 You can find me in my office on working hours. Notify me two or three hours in advance. On off hours, I'll be available on home address. Feel free to say hi to me at home. Contact me at my number only if necessary, but an email would be great.
@@ -13,10 +19,6 @@ Pandemic Update: I will mostly at home. Poke me at social media, I will reply im
 :office: Office
 :    Math Building 3rd Floor, Faculty of Science UGM.
 	 Sekip Utara BLS 21  • Yogyakarta, Indonesia
-
-
-:house_with_garden: House
-:    Semail 7, Bangunharjo, Sewon • Bantul, Indonesia
 
 
 :mailbox: Email
